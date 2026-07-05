@@ -14,7 +14,19 @@ int main(int argc, char *argv[]) {
 	scanf("%f", &pe);
 	mc = pe/(al*al);
 
-	printf("\nsu masa corporal es = %f\n", mc);
+	if (mc < 18.5){
+		printf ("\nSu condicion actual es Bajo Peso (mc= %f)", mc);
+	} 
+	else if (mc >= 18.5 && mc <= 24.9){
+		printf ("\nSu condicion actual es Normal (mc= %f)",mc);
+	}
+	else if (mc >= 25.0 && mc <= 29.9){
+		printf ("\nSu condicion actual es Sobrepeso (mc= %f)",mc);
+	}
+	else{
+		printf ("\nSu condicion actual es Obesidad (mc= %f)",mc);
+	}
+	
 	
 	printf("\n====================================\n");
 	printf(" INDICE\t\t| CONDICION\n");
