@@ -3,6 +3,8 @@
 
 int main(int argc, char *argv[]) {
 	
+	// Link del repositorio https://github.com/sharonsteinkamp/Trabajos-info1.git
+	
 	float pe, al, mc;
 	
 	do {
