@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 		printf("Ingrese su peso (kg): ");
 		scanf("%f", &pe);
 		if (pe <=0){
-			printf("Error, debe ingresar un número positivo mayor a cero. \n");
+			printf("Error, debe ingresar un nÃºmero positivo mayor a cero. \n");
 		}
 	} while(pe <= 0);
 	
